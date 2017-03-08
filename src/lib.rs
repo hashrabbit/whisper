@@ -14,4 +14,4 @@ extern crate log;
 mod whisper;
 
 pub use whisper::errors;
-pub use self::whisper::{WhisperFile, AggregationType, Point, Schema, WhisperCache, NamedPoint};
+pub use self::whisper::{WhisperFile, Archive, AggregationType, Point, Schema, WhisperCache, NamedPoint};

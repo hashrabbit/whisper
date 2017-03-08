@@ -6,10 +6,9 @@ mod header;
 pub mod archive;
 
 use self::header::Header;
-use self::archive::Archive;
 
 pub use self::header::{STATIC_HEADER_SIZE, AggregationType};
-pub use self::archive::ARCHIVE_INFO_SIZE;
+pub use self::archive::{Archive, ARCHIVE_INFO_SIZE};
 
 use whisper::Point;
 use whisper::Schema;
